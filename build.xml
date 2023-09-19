@@ -13,6 +13,6 @@
     </target>
     
     <target name="run" depends="compile">
-        <java classname="HelloWorld" classpath="${build.dir}" fork="true"/>
+        <java classname="helloworld" classpath="${build.dir}" fork="true"/>
     </target>
 </project>
